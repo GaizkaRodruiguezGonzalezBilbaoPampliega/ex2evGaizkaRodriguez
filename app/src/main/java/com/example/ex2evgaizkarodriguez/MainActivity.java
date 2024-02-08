@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity{
     // Método para volver al fragmento del mapa desde el fragmento de información
     @Override
     public void onBackPressed() {
+        super.onBackPressed();
         FragmentManager fragmentManager = getSupportFragmentManager();
         if (fragmentManager.getBackStackEntryCount() > 0) {
             fragmentManager.popBackStack();

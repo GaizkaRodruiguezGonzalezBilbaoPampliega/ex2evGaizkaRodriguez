@@ -15,5 +15,6 @@
         android:layout_marginStart="10sp"
         android:layout_marginEnd="10sp"
         android:clickable="true"
-        android:contentDescription="MAPA"></org.osmdroid.views.MapView>
+        android:contentDescription="@string/mapa"
+        android:focusable="true" />
 </FrameLayout>

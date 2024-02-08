@@ -30,8 +30,7 @@ public class MapaFragment extends Fragment {
     MainActivity mActivity;
     private MapView mapa;
     private IMapController mapController;
-
-    private OnPointSelectedListener mListener;
+    
 
 
     public MapaFragment() {
@@ -91,16 +90,16 @@ public class MapaFragment extends Fragment {
                     }
                 });
 
-        // Capa de marcadores
-        // Ikono pertsonalizatuak ezarteko karga
+
+        // Icono
         Drawable markerPertsonalizatua = ContextCompat.getDrawable(requireContext(), R.drawable.location);
 
-        // Ikono pertsonalizatuak ipini
+        // poner el icono
         items.get(0).setMarker(markerPertsonalizatua);
 
 
         overlay.setFocusItemsOnTap(true);
-        // "Marker"-en izenburua eta deskribapena agertzen karratuaren kolorea.
+
         overlay.setMarkerBackgroundColor(getResources().getColor(R.color.white));
         mapa.getOverlays().add(overlay);
         mapa.setUseDataConnection(true);

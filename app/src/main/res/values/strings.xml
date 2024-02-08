@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ex2evGaizkaRodriguez</string>
+    <string name="museo_guggenheim">Museo Guggenheim</string>
+    <string name="descripcion">El propósito del Museo Guggenheim Bilbao es inspirar y abrir nuevas perspectivas a todas las personas a través del arte y sus valores. APRENDE es el proyecto educativo del Museo, en el que lo social, la mediación y la accesibilidad juegan un papel fundamental, y cuyos contenidos están organizados en función de los públicos a los que van dirigidos y sus necesidades e intereses específicos. APRENDE engloba un amplio abanico de programas, actividades y recursos para facilitar el disfrute y el conocimiento de la programación artística del Museo, de su arquitectura, y, por ende, del arte moderno y contemporáneo y la cultura en general.</string>
+    <string name="boton">Volver al Mapa</string>
+    <string name="mapa">MAPA</string>
 </resources>
